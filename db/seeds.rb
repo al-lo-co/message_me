@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+(1..5).each do |n| 
+  user = User.create(username: "Bill#{n}", password: "password#{n}")
+  (1..5).each do |m|
+    Message.create(body: "this is a message from user: #{user.username} with the id: #{m}", user: user)
+  end
+end
+
+
