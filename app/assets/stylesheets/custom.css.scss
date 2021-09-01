@@ -3,7 +3,15 @@
 
 .chatbox {
   height: 450px;
-  .scroll{
-    overflow: scroll;
+}
+
+#messages{
+  height: 15em;
+  overflow: auto;
+}
+
+.input{
+  button {
+    display: none;
   }
 }
