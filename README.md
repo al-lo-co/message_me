@@ -37,5 +37,5 @@ bundle exec rails s
 
 ##### 5. Description
 
-It is a web app that has as its purpose bring a channel for communication with messages that use application cable and is build with Semantic UI, it has some functions with pure JS and Coffee Script, it manages sessions also.  
+It is a web app that has as purpose bring a channel for communication with messages that use application cable and is build with Semantic UI, it has some functions with pure JS and Coffee Script, it manages sessions also.  
 
